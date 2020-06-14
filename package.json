@@ -1,11 +1,22 @@
 {
   "name": "graphql",
   "version": "1.0.0",
-  "description": "Terku Test app using Graphql",
+  "description": "Tekru Test app using Graphql",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "server": "nodemon server"
   },
   "author": "bilel",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^2.14.4",
+    "bcryptjs": "^2.4.3",
+    "config": "^3.3.1",
+    "graphql": "^14.1.1",
+    "graphql-iso-date": "^3.6.1",
+    "joi": "^14.3.1",
+    "jsonwebtoken": "^8.5.1",
+    "mysql2": "^2.1.0",
+    "sequelize": "^5.21.12"
+  }
 }
